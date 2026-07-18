@@ -1,6 +1,6 @@
 # 05 — Variety Engineering: The Practitioner's Toolkit
 
-> Previous: [04 — Metalanguage and Metasystems](04-metalanguage-metasystems.md) · Next: [06 — Modern Extensions](06-modern-extensions.md)
+> Previous: [04 — Metalanguage and Metasystems](04-metalanguage-metasystems.md) · Next: [06 — Modern Extensions](06-modern-extensions.md) · Back to [README](../README.md)
 
 Requisite variety, as a theorem, tells you *whether* regulation is possible. It says nothing
 about *how* to get there. **Variety engineering** — Stafford Beer's term for the deliberate

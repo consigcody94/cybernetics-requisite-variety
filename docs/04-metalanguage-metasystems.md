@@ -1,7 +1,8 @@
 # Metalanguage and Metasystems
 
+> Previous: [03 — Viable System Model](03-viable-system-model.md) · Next: [05 — Variety Engineering](05-variety-engineering.md) · Back to [README](../README.md)
+
 > Part 4 of a series on requisite variety and management cybernetics.
-> Previous: variety, regulation, and the Law of Requisite Variety.
 > This part: what it means for one system to be *logically above* another,
 > and why Stafford Beer built the Viable System Model around that idea.
 

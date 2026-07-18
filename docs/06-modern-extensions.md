@@ -1,5 +1,7 @@
 # 06 · Modern extensions — requisite variety in the 2020s
 
+> Previous: [05 — Variety Engineering](05-variety-engineering.md) · Next: [07 — Research Frontiers](07-research-frontiers.md) · Back to [README](../README.md)
+
 > This is the repository's original-contribution essay. Earlier docs built the
 > machinery (Ashby's Law of Requisite Variety, the essential-variables picture,
 > Beer's Viable System Model and variety engineering). Here we put that machinery
@@ -362,31 +364,53 @@ some technical, some genuinely unsolved.
    operationalize it — as input/output entropy, or some behavioral measure — well
    enough to make the law *quantitative* rather than merely directional in these
    domains? For LLM behavior in particular there is no accepted bits-measure of
-   "variety," so the inequality stays qualitative.
+   "variety," so the inequality stays qualitative. (The measured-complexity thread
+   in [07 §d](07-research-frontiers.md#d-multi-scale-requisite-variety-and-measured-complexity)
+   — Bar-Yam's computable complexity profiles, Gershenson's multi-scale measures —
+   is the current best attempt to make variety operational; see also the graded
+   rate-cost bound of Kostina & Hassibi in [07 §a](07-research-frontiers.md#a-information-theoretic-sharpenings-of-the-law).)
 2. **A rate form of the law.** Ashby's theorem is static: a fixed table, a
    one-shot game. The interesting modern cases (adversarial moderation, non-
    stationary production systems, self-improving agents) need a *dynamic* statement
    — "the regulator must produce variety at least as fast as the disturbance
-   grows." That rate condition is folklore; it lacks Ashby's crisp proof.
+   grows." That rate condition is folklore; it lacks Ashby's crisp proof. (For
+   *linear* plants it is no longer folklore: the data-rate theorems and control-
+   capacity results in [07 §a](07-research-frontiers.md#a-information-theoretic-sharpenings-of-the-law)
+   prove an exact bits-per-unit-time form of requisite variety. The open part is
+   extending it to open-ended and adversarial sources.)
 3. **Coupling and closed loops.** Ashby assumes disturbance and regulator are
    independent inputs to the outcome. Agents shape their own inputs; orgs cause their
    own incidents; people seek their own distractions. When independence fails, what
-   replaces the bound? There is no clean successor theorem.
+   replaces the bound? There is no clean successor theorem. (The closest current
+   work is the "core / periphery" treatment of self-influencing AI in
+   [07 §f](07-research-frontiers.md#f-the-ai-era) and the data-driven
+   perception-action boundaries of the causal-blankets framework in
+   [07 §c](07-research-frontiers.md#c-variety-as-agent-capability--empowerment).)
 4. **The good-regulator paradox for AI safety.** Conant & Ashby imply an aligned
    regulator must *model* the optimizer it governs — hence be nearly as capable as
    the thing we are trying to make safe. Yet we want the regulator simpler and more
    trustworthy than the optimizer. Is requisite-variety alignment therefore self-
-   undermining? This tension is live and unresolved, not a settled result.
+   undermining? This tension is live and unresolved, not a settled result. (The
+   good-regulator descendants in [07 §b](07-research-frontiers.md#b-the-good-regulators-descendants)
+   and the oversight-adequacy criterion of Janssen in [07 §f](07-research-frontiers.md#f-the-ai-era)
+   are where this paradox is currently being argued.)
 5. **A theory of amplification.** Beer's "amplify the regulator, attenuate the
    disturbance" is a design heuristic with no general account of *how much* a given
    mechanism buys, or of when an amplifier becomes a new disturbance source (a tool
    that adds variety it cannot control). Legitimacy-as-amplifier especially has no
-   formal model.
+   formal model. (The empowerment literature in [07 §c](07-research-frontiers.md#c-variety-as-agent-capability--empowerment)
+   and the control-capacity result in [07 §a](07-research-frontiers.md#a-information-theoretic-sharpenings-of-the-law)
+   are the closest thing to a bit-valued theory of an amplifier's worth, but only
+   in restricted settings.)
 6. **Conservation of variety.** Beer suggested that suppressed variety does not
    vanish — it reappears elsewhere (the attenuated complexity resurfaces as shadow
    work, workarounds, or brittleness). Whether there is a genuine *conservation law*
    for variety across a system boundary, or only a useful intuition, remains
-   contested and informal.
+   contested and informal. (Its closest formal cousin is the *sum rule* /
+   conservation of degrees of freedom in the multi-scale complexity profiles of
+   [07 §d](07-research-frontiers.md#d-multi-scale-requisite-variety-and-measured-complexity);
+   whether that is Beer's conservation or a different quantity that merely rhymes
+   with it is itself open.)
 
 Read charitably, requisite variety is less a calculator than a **diagnostic
 grammar**: it tells you where to look (which side of the loop is under-provisioned),

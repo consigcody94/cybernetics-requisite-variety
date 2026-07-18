@@ -1,5 +1,7 @@
 # The Viable System Model
 
+> Previous: [02 — Ashby's Law](02-ashbys-law.md) · Next: [04 — Metalanguage and Metasystems](04-metalanguage-metasystems.md) · Back to [README](../README.md)
+
 Stafford Beer spent most of his career on one question: what must be true of the *organization* of a system — any system — for it to keep existing in an environment that never stops changing? His answer, developed across three books (*Brain of the Firm*, *The Heart of Enterprise*, and *Diagnosing the System for Organizations*), is the **Viable System Model (VSM)**: a claim that every system capable of sustaining an independent existence necessarily performs five distinct functions, connected by specific communication channels, and that the whole pattern repeats at every level of organization.
 
 This document explains what viability means, walks through the five systems, develops the variety arithmetic that justifies them, describes the recursive structure and the algedonic channel, gives an honest account of Project Cybersyn, and closes with the standard criticisms and the standard replies.

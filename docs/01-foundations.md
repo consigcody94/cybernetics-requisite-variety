@@ -1,5 +1,7 @@
 # Foundations of Cybernetics
 
+> Next: [02 — Ashby's Law](02-ashbys-law.md) · Back to [README](../README.md)
+
 > Part 1 of an educational series on cybernetics, requisite variety, and management cybernetics.
 
 Cybernetics is the science of goal-directed systems: how a thing — an organism, a

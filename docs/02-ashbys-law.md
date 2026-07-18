@@ -1,6 +1,6 @@
 # Ashby's Law of Requisite Variety — the formal core
 
-> Part of the [cybernetics-requisite-variety](../README.md) series. Previous: foundations and vocabulary. Next: variety engineering and Beer's management cybernetics.
+> Previous: [01 — Foundations](01-foundations.md) · Next: [03 — Viable System Model](03-viable-system-model.md) · Back to [README](../README.md)
 
 W. Ross Ashby's Law of Requisite Variety is the closest thing cybernetics has to a conservation law. Informally: **a regulator can hold outcomes steady only to the extent that its repertoire of responses can match the repertoire of disturbances it faces.** Ashby compressed it into five words:
 
@@ -245,6 +245,12 @@ flowchart LR
 - Training and doctrine: install response repertoires in people so central capacity isn't consumed per event.
 
 One caution keeps the bookkeeping honest: a deterministic mechanism cannot *create* variety — the output variety of a fixed transducer is at most its input variety. "Amplifiers" never conjure variety from nothing; they *recruit and align variety that already exists elsewhere* (in subordinates, machines, market participants, physics) so that it serves the regulatory goal instead of fighting it. That reframing — regulation as the design of variety flows across a boundary, attenuating inward and amplifying outward until the inequality balances — is exactly the program Stafford Beer industrialized as *variety engineering*, the subject of the next document.
+
+---
+
+## 9. Sharpenings of the bound
+
+The entropy inequality above is the classical statement, but it is not the last word: over the following decades several literatures turned individual clauses of it into exact theorems, and [`07-research-frontiers.md`](07-research-frontiers.md) surveys them in full. Touchette and Lloyd's ["Information-Theoretic Limits of Control"](https://arxiv.org/abs/chao-dyn/9905039) (2000) recast the bound physically, proving that each bit a feedback controller reads from a system can lower the system's entropy by at most one bit — the requisite-variety exchange rate derived as a generalized second law rather than a pigeonhole count. Sagawa and Ueda's work on [feedback thermodynamics](https://arxiv.org/abs/0710.0956) (2008) attaches a thermodynamic price to that same mutual-information term `I(D;R)`, quantifying the order a regulator buys per bit measured. And the *data-rate theorems* of [Tatikonda and Mitter](https://doi.org/10.1109/TAC.2004.831187) (2004) and [Nair and Evans](https://doi.org/10.1137/S0363012902402116) (2004) sharpen the law into a *rate* form: an unstable plant manufactures variety at a definite bits-per-unit-time rate (the sum of the logs of its unstable eigenvalues), and no controller can hold it steady unless it receives information at least that fast. Each of these upgrades the static counting bound of this chapter into something denominated in physical cost or in time — see [07 §a](07-research-frontiers.md#a-information-theoretic-sharpenings-of-the-law) for the details and the surrounding literature.
 
 ---
 

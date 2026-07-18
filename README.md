@@ -75,6 +75,7 @@ absorbs, not the variety it claims to.
 | [`docs/04-metalanguage-metasystems.md`](docs/04-metalanguage-metasystems.md) | Why a system cannot fully regulate itself from inside — the need for a *metasystem* operating in a richer language. Connections to hierarchy, logical typing, and the recursive structure of the VSM. |
 | [`docs/05-variety-engineering.md`](docs/05-variety-engineering.md) | The practical craft: attenuators and amplifiers, the variety-balance equation across a channel, and worked design examples (a help desk, a dashboard, an approval process). How to spot an unbalanced channel before it fails. |
 | [`docs/06-modern-extensions.md`](docs/06-modern-extensions.md) | The law applied to contemporary systems: SRE and control loops, autoscaling, AI agents and tool-use as variety amplifiers, alert fatigue as attenuator failure. Careful about which analogies are exact and which are suggestive. |
+| [`docs/07-research-frontiers.md`](docs/07-research-frontiers.md) | A guided tour of the research literature that made pieces of Ashby's law exact: information-theoretic control limits and data-rate theorems, the good regulator's descendants (internal model principle, free energy principle), empowerment, the multi-scale law of requisite variety, VSM applications, and the AI era. Every entry is a real, verified paper with a working link and an original annotation. |
 
 ### `simulation/` — executable demonstrations
 
@@ -160,6 +161,13 @@ things beyond that:
    engineering (control loops, autoscaling, alerting) and onto AI agents, where tools and
    subagents function as variety amplifiers and context windows as attenuators — while flagging
    which of these mappings are exact and which are useful analogies.
+4. **It connects the classical law to the live research frontier.** `docs/07` is a verified
+   survey of the literature that took Ashby's slogan and made parts of it exact — information-
+   theoretic control limits and the thermodynamics of feedback, communication data-rate
+   theorems, the internal model principle and free energy principle, empowerment, the multi-scale
+   law of requisite variety, real VSM applications, and current AI-safety and oversight work. Every
+   paper is a real, checked publication with a working link and an original annotation explaining
+   how it sharpens or generalizes the classical bound.
 
 The aim throughout is rigor with honesty: state the theorem where a theorem exists, mark the
 heuristic where only a heuristic exists, and never let a good metaphor stand in for a proof.
